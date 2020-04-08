@@ -1,0 +1,57 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int num;
+    printf("enter any number between 1 to 12\n");
+    scanf("%d",&num);
+    if(num==1)
+    {
+        printf("JANUARY\n");
+    }
+    if(num==2)
+    {
+        printf("FEBUARY\n");
+    }
+    if(num==3)
+    {
+        printf("MARCH\n");
+    }
+    if(num==4)
+    {
+        printf("APRIL\n");
+    }
+    if(num==5)
+    {
+        printf("MAY\n");
+    }
+    if(num==6)
+    {
+        printf("JUNE\n");
+    }
+    if(num==7)
+    {
+        printf("JULY\n");
+    }
+    if(num==8)
+    {
+        printf("AUGUST\n");
+    }
+    if(num==9)
+    {
+        printf("SEPTEMBER\n");
+    }
+    if(num==10)
+    {
+        printf("OCTOBER\n");
+    }
+    if(num==11)
+    {
+        printf("NOVEMBER\n");
+    }
+    if(num==12)
+    {
+        printf("DECEMBER\n");
+    }
+    getch();
+}
